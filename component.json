@@ -1,0 +1,14 @@
+{
+  "name": "html-plugin",
+  "repo": "bredele/html-plugin",
+  "description": "Bind a node inner HTML with a store attribute",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}

@@ -1,6 +1,6 @@
 
 /**
- * Expose 'text-plugin'
+ * Expose 'html-plugin'
  */
 
 module.exports = function(el, expr){

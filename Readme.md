@@ -12,8 +12,12 @@
 ```js
 var plugin = require('html-plugin');
 ...
-binding.add('text', plugin);
+binding.add('html', plugin);
 ...
+```
+
+```html
+<p data-html="description"></p>
 ```
 
 ## License

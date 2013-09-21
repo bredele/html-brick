@@ -1,11 +1,10 @@
-
 # html-plugin
 
   [Bind](https://github.com/bredele/data-binding) a node inner HTML with a [store](https://github.com/bredele/store) attribute
 
 ## Installation
 
-    $ component install bredele/text-plugin
+    $ component install leafs/text-plugin
 
 ## Usage
 

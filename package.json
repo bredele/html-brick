@@ -1,0 +1,28 @@
+{
+  "name": "html-brick",
+  "version": "0.0.1",
+  "description": "Lego plugin to bind a node innerHTML to a store attribute",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bredele/html-brick.git"
+  },
+  "keywords": [
+    "mvc",
+    "brick",
+    "lego",
+    "live",
+    "binding"
+  ],
+  "author": "Olivier Wietrich <olivier.wietrich@gmail.com> (http://github.com/bredele)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bredele/html-brick/issues"
+  }
+}

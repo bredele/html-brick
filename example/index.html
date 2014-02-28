@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HTML plugin</title>
+</head>
+<body>
+	<span data-html="github"></span>
+	<script src="../build/build.js"></script>
+	<script>
+	  var lego = require('lego');
+	  var view = lego(document.querySelector('span'))
+	    .add('data-html', require('html-brick'))
+	    .build();
+
+	  var i = 0;
+	  setInterval(function() {
+	  	view.set('github', 'bredele:' + i++);
+	  }, 16);
+	</script>
+</body>
+</html>

@@ -1,7 +1,7 @@
 {
   "name": "html-brick",
   "version": "0.1.0",
-  "description": "Lego plugin to bind a node innerHTML with a store attribute' ",
+  "description": "Lego plugin to bind a node innerHTML with a store attribute",
   "main": "index.js",
   "directories": {
     "example": "example"
@@ -19,8 +19,7 @@
     "brick",
     "lego",
     "html",
-    "mvvm",
-    "mvc"
+    "mvvm"
   ],
   "author": "Olivier Wietrich <olivier.wietrich@gmail.com> (http://github.com/bredele)",
   "license": "MIT",

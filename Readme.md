@@ -26,7 +26,7 @@ view.add('data-html', require('html-brick'));
 <p data-html="github"></p>
 ```
 
-The plugin will look if it finds the property `github` (`view.get('github')`) and listen for changes.
+The plugin will look if it finds the property `github` and listen for changes.
 
 ```js
 view.set('github', 'bredele');
@@ -38,6 +38,15 @@ will display:
 <p data-html="github">bredele</p>
 ```
 see [live example](https://github.com/bredele/html-brick/tree/master/example)
+
+## Alternative
+
+[lego](https://github.com/bredele/lego) allows variable substitutions
+
+```html
+<p>{{ github }}</p>
+```
+
 ## License
 
   MIT

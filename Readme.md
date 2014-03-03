@@ -1,6 +1,6 @@
 # html-plugin
 
-  [Lego](https://github.com/bredele/lego) plugin to bind a node inner HTML with a [store](https://github.com/bredele/store) attribute
+  [Brick](https://github.com/bredele/brick) plugin to bind a node inner HTML with a [store](https://github.com/bredele/store) attribute
 
 ## Installation
 
@@ -14,7 +14,7 @@ with [nodejs](http://nodejs.org):
 
 ## Usage
 
-First, add the plugin to your view (see [lego](https://github.com/bredele/lego) to know more about views):
+First, add the plugin to your view (see [brick](https://github.com/bredele/brick) to know more about views):
 
 ```js
 view.add('data-html', require('html-brick'));
@@ -41,7 +41,7 @@ see [live example](https://github.com/bredele/html-brick/tree/master/example)
 
 ## Alternative
 
-[lego](https://github.com/bredele/lego) allows variable substitutions
+[brick](https://github.com/bredele/brick) allows variable substitutions
 
 ```html
 <p>{{ github }}</p>

@@ -1,7 +1,7 @@
 {
   "name": "html-brick",
   "version": "0.0.1",
-  "description": "Lego plugin to bind a node innerHTML to a store attribute",
+  "description": "Brick plugin to bind a node innerHTML to a store attribute",
   "main": "index.js",
   "directories": {
     "example": "example"
@@ -16,7 +16,6 @@
   "keywords": [
     "mvc",
     "brick",
-    "lego",
     "live",
     "binding"
   ],

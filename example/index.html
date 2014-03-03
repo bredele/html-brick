@@ -8,8 +8,8 @@
 	<span data-html="github"></span>
 	<script src="../build/build.js"></script>
 	<script>
-	  var lego = require('lego');
-	  var view = lego(document.querySelector('span'))
+	  var brick = require('brick');
+	  var view = brick(document.querySelector('span'))
 	    .add('data-html', require('html-brick'))
 	    .build();
 
